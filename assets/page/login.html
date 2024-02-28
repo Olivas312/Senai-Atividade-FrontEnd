@@ -30,27 +30,26 @@
                 </form>
             </div>
         </header>
-        <main>
-            <form>
-                <h2>Login</h2>
-
-                <div>
-                    <label for="nome">Nome :</label>
-                    <input type="text" name="nome" id="nome">
-                </div>
-
-                <div>
-                    <label for="senha">Senha :</label>
-                    <input type="password" name="senha" id="senha">
-                </div>
-
-                <div>
-                    <button>Login</button>
-                </div>
-
-                <div>
-                    <button>Não tem cadastro ainda? Cadastre-se</button>
-                </div>
+        <main id="mainFormulario">
+            <form >
+                <fildset id="formulario">
+                    
+                    <h2 id="titleForm">Login</h2>
+                    <div class="inputs">
+                        <label for="nome">Nome :</label>
+                        <input class="inputsPuts" type="text" placeholder="Insira seu nome" name="nome" id="nome">
+                    </div>
+                    <div class="inputs">
+                        <label for="senha">Senha :</label>
+                        <input class="inputsPuts" type="password" placeholder="Insira sua senha" name="senha" id="senha">
+                    </div>
+                    <div>
+                        <button id="btnLogin">Login</button>
+                    </div>
+                    <div>
+                        <button id="btnCadastro">Não tem cadastro ainda? Cadastre-se</button>
+                    </div>
+                </fildset>
             </form>
         </main>
         <footer>
